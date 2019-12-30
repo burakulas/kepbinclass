@@ -1,9 +1,10 @@
+# KEPBINCLASS
 KEPBINCLASS is a Python script that is written for prediction of the morphological class of the Kepler binary star systems by recognizing their light curve images. Mainly, the Kepler binary star database [1] was used, however, the code can be used to classify the morphology of the binary stars from any other datasets based on light curve images.  
 
 The model contains deep learning image recognition algorithm using neural networks to apply the multi-class classification to the light curve image data of the binary stars. The script predicts the classes and also plots the variation of “Accuracy” and “Loss Function” with the “Epoch” number. That is, the user can easily observe the quality of the model in terms of those quantities. 
  
 
-#Dependencies: 
+# Dependencies: 
 
 Keras API [2] 
 
@@ -16,7 +17,7 @@ os module [5]
 tensorflow platform [6] 
 
  
-#Notes on Usage: 
+# Notes on Usage: 
 
 . Change the variables “train_data_dir”, “validation_data_dir” and “pred_data_dir” based on your directory path scheme. 
 
@@ -41,7 +42,7 @@ For comments and further questions: bulash@gmail.com
 
 This script has made use of the Google Colaboratory tool [7]. 
 
-#References: 
+# References: 
 
 [1] http://keplerebs.villanova.edu/   
 
