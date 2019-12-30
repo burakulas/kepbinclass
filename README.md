@@ -43,7 +43,7 @@ This script has made use of the Google Colaboratory tool [7].
 
 #References: 
 
-[1] www.keplerebs.villanova.edu/   
+[1] http://keplerebs.villanova.edu/   
 
 [2] www.keras.io 
 
