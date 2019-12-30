@@ -19,7 +19,9 @@ tensorflow platform [6]
  
 # Notes on Usage: 
 
-. Change the variables “train_data_dir”, “validation_data_dir” and “pred_data_dir” based on your directory path scheme. 
+. Access train, validation and prediction data files: https://drive.google.com/open?id=1V825ek9Fn6X5dEe_j3sXxVz2vrGgSS7j
+
+. Change the variables “train_data_dir”, “validation_data_dir” and “pred_data_dir” based on your directory scheme. 
 
 . When predicting a single image alternate the prediction lines of the code according to the path and name of your test image to let the model outputs a prediction. 
 
