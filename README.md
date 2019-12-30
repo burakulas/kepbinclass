@@ -15,7 +15,6 @@ os module [5]
 
 tensorflow platform [6] 
 
-
  
 Notes on Usage: 
 
@@ -54,3 +53,5 @@ References:
 [5] www.github.com/python/cpython/blob/3.8/Lib/os.py 
 
 [6] www.tensorflow.org 
+
+This script has made use of the Google Colaboratory tool.
