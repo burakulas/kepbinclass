@@ -1,7 +1,6 @@
 KEPBINCLASS is a Python script that is written for prediction of the morphological class of the Kepler binary star systems by recognizing their light curve images. Mainly, the Kepler binary star database [1] was used, however, the code can be used to classify the morphology of the binary stars from any other datasets based on light curve images.  
 
-The model contains deep learning image recognition algorithm using neural networks to apply the multi-class classification to the light curve image data of the binary stars. The script predicts the classes and also plots the variation of “Accuracy” and “Loss Function” with the “Epoch” number. That is, the user can easily observe the quality of the model in terms of those quantities. 
-
+The model contains deep learning image recognition algorithm using neural networks to apply the multi-class classification to the light curve image data of the binary stars. The script predicts the classes and also plots the variation of â€œAccuracyâ€ and â€œLoss Functionâ€ with the â€œEpochâ€ number. That is, the user can easily observe the quality of the model in terms of those quantities. 
  
 
 Dependencies: 
@@ -20,11 +19,11 @@ tensorflow platform [6]
  
 Notes on Usage: 
 
-. Change the variables “train_data_dir”, “validation_data_dir” and “pred_data_dir” based on your directory path scheme. 
+. Change the variables â€œtrain_data_dirâ€, â€œvalidation_data_dirâ€ and â€œpred_data_dirâ€ based on your directory path scheme. 
 
 . When predicting a single image alternate the prediction lines of the code according to the path and name of your test image to let the model outputs a prediction. 
 
-. The default output will be in “class” format, however, the user may want to change it to “predict” or “proba” to observe the probabilities of different classes. 
+. The default output will be in â€œclassâ€ format, however, the user may want to change it to â€œpredictâ€ or â€œprobaâ€ to observe the probabilities of different classes. 
 
 . The output contain filename and the value of 0, 1 and 2 which correspond to contact, detached and semi-detached morphological classes respectively.  
 
