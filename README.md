@@ -55,4 +55,4 @@ This script has made use of the Google Colaboratory tool [7].
 
 [6] www.tensorflow.org 
 
-[7] www.colab.research.google.com
+[7] https://colab.research.google.com/
