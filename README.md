@@ -24,7 +24,7 @@ tensorflow platform [6]
 
 . Change the variables “train_data_dir”, “validation_data_dir” and “pred_data_dir” based on your directory scheme. 
 
-. When predicting a single image alternate the prediction lines of the code according to the path and name of your test image to let the model outputs a prediction. 
+. When predicting a single image alternate the prediction lines of the code according to the path and name of the image to let the model outputs a prediction. 
 
 . The default output will be in “class” format, however, the user may want to change it to “predict” or “proba” to observe the probabilities of different classes. 
 
