@@ -34,9 +34,9 @@ tensorflow platform [6]
 
 . The script saves the model (mod_binclass.h5) on the working directory. 
 
-. The script works on Python 3.x. Some modifications are needed to get the code runs in Python 2.x. It also uses TensorFlow 1.x. kepbinclass_v2.py runs in TensorFlow 2.0.0
+. The script works on Python 3.x. Some modifications are needed to get the code runs in Python 2.x. The first version uses TensorFlow 1.x. kepbinclass_v2.py runs in TensorFlow 2.0.0
 
-. The deprecated warnings were disabled in the script. It is recommended to enable them when the code is used for development purposes. 
+. The deprecated warnings were disabled in the first script. It is recommended to enable them when the code is used for development purposes. 
 
 
 When used the script, you may want to give reference to its GitHub address: https://github.com/burakulas/kepbinclass
