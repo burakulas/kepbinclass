@@ -30,7 +30,7 @@ tensorflow platform [6]
 
 . The output contains filename and the value of 0, 1 and 2 which correspond to contact, detached and semi-detached morphological classes respectively.  
 
-. Different datasets probably need different trials of hyperparameters. Therefore, it is recommended to modify the parameters based on your light curve image dataset. 
+. Different datasets probably need different sets of hyperparameters. Therefore, it is recommended to modify the parameters based on your light curve image dataset. 
 
 . The script saves the model (mod_binclass.h5) on the working directory. 
 
