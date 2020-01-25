@@ -4,7 +4,7 @@ KEPBINCLASS is a Python script that is written for prediction of the morphologic
 The model contains deep learning image recognition algorithm using neural networks to apply the multi-class classification to the light curve image data of the binary stars. The script predicts the classes and also plots the variation of *Accuracy* and *Loss Function* with the *Epoch* number. That is, the user can easily observe the quality of the model in terms of those quantities. 
 
 ## v2
-*kepbinclass_v2.py* is compatible with TensorFlow 2.0.0 and it contains 2 convolution and pooling layers, unlike the previous version having 3. Some additional lines (ending with #rp comments) were also added for reproductivity, however, it must be kept in mind that the reproductivity is not guaranteed when the code running on a GPU.
+*kepbinclass_v2.py* is compatible with TensorFlow 2.0.0 and it contains 2 convolution and pooling layers, unlike the previous version having 3. Some additional lines (ending with #rp comments) were also added for reproducibility, however, it must be kept in mind that the reproducible results are not guaranteed when the code running on a GPU.
 
 ## Dependencies: 
 
