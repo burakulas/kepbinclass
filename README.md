@@ -1,12 +1,12 @@
 # KEPBINCLASS
 KEPBINCLASS is a Python script that is written for prediction of the morphological classes of the Kepler binary star systems by recognizing their light curve images. Mainly, the Kepler binary star database [1] was used, however, the code can be used to classify the morphology of the binary stars from any other datasets based on light curve images.  
 
-The model contains deep learning image recognition algorithm using neural networks to apply the multi-class classification to the light curve image data of the binary stars. The script predicts the classes and also plots the variation of “Accuracy” and “Loss Function” with the “Epoch” number. That is, the user can easily observe the quality of the model in terms of those quantities. 
+The model contains deep learning image recognition algorithm using neural networks to apply the multi-class classification to the light curve image data of the binary stars. The script predicts the classes and also plots the variation of *Accuracy* and *Loss Function* with the *Epoch* number. That is, the user can easily observe the quality of the model in terms of those quantities. 
 
-# v2
-kepbinclass_v2.py is compatible with TensorFlow 2.0.0 and it contains 2 convolution and pooling layers, unlike the previous version having 3. Some additional lines (ending with #rp comments) were also added for reproductivity, however, it must be kept in mind that the reproductivity is not guaranteed when the code running on a GPU.
+## v2
+*kepbinclass_v2.py* is compatible with TensorFlow 2.0.0 and it contains 2 convolution and pooling layers, unlike the previous version having 3. Some additional lines (ending with #rp comments) were also added for reproductivity, however, it must be kept in mind that the reproductivity is not guaranteed when the code running on a GPU.
 
-# Dependencies: 
+## Dependencies: 
 
 Keras API [2] 
 
@@ -19,7 +19,7 @@ os module [5]
 tensorflow platform [6] 
 
  
-# Notes on Usage: 
+## Notes on Usage: 
 
 . Access train, validation and prediction data files: https://drive.google.com/open?id=1V825ek9Fn6X5dEe_j3sXxVz2vrGgSS7j
 
@@ -46,7 +46,7 @@ For comments and further questions: bulash@gmail.com
 
 This script has made use of the Google Colaboratory tool [7]. 
 
-# References: 
+## References: 
 
 [1] http://keplerebs.villanova.edu/   
 
